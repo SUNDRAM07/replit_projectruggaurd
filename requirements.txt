@@ -1,0 +1,8 @@
+tweepy>=4.14.0
+requests>=2.31.0
+python-dotenv>=1.0.1
+pandas>=2.2.2
+nltk>=3.8.1
+textblob>=0.18.0
+schedule>=1.2.1
+aiohttp>=3.9.5
