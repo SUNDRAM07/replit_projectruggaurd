@@ -1,12 +1,12 @@
-# RUGGUARD X Bot 🔒
+# RUGGUARD X Bot 
 
 **An automated Twitter/X bot for analyzing account trustworthiness in the Solana ecosystem**
 
-## 🎯 Mission
+## Mission
 
 The RUGGUARD X bot automatically analyzes the trustworthiness of token project accounts when triggered by users seeking verification. When someone replies with "@projectruggaurd riddle me this" to any tweet, the bot analyzes the original tweet's author and provides a comprehensive trustworthiness report.
 
-## ⚡ Features
+## Features
 
 - **Real-time Monitoring**: Continuously monitors X for trigger phrases
 - **Account Analysis**: Evaluates account age, follower ratios, verification status, and bio completeness  
@@ -14,7 +14,7 @@ The RUGGUARD X bot automatically analyzes the trustworthiness of token project a
 - **Automated Reporting**: Posts concise trustworthiness reports as replies
 - **Risk Assessment**: Provides clear LOW/MEDIUM/HIGH risk ratings with trust scores (0-100)
 
-## 🔧 Setup Instructions
+##  Setup Instructions
 
 ### Prerequisites
 
@@ -39,7 +39,7 @@ The RUGGUARD X bot automatically analyzes the trustworthiness of token project a
 
 ```bash
 # Clone the repository
-git clone <your-repo-url>
+git clone https://github.com/SUNDRAM07/replit_projectruggaurd
 cd rugguard-x-bot
 
 # Install dependencies
@@ -73,7 +73,7 @@ python simple_bot.py
 python rugguard_bot.py
 ```
 
-## 🚀 Replit Deployment
+## Replit Deployment
 
 ### Quick Deploy to Replit
 
@@ -104,7 +104,7 @@ python rugguard_bot.py
    - Enable "Always On" in Replit (requires paid plan)
    - Or use Replit's Scheduled Deployments for periodic checks
 
-## 📋 Architecture Overview
+## Architecture Overview
 
 ### Core Components
 
@@ -224,7 +224,7 @@ python rugguard_bot.py
 python -c "import tweepy; print('Tweepy installed successfully')"
 ```
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -232,53 +232,4 @@ python -c "import tweepy; print('Tweepy installed successfully')"
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📊 Judging Criteria Compliance
-
-This implementation addresses all bounty requirements:
-
-### Functionality (50/50 points)
-- ✅ Scans replies across X for trigger phrase
-- ✅ Reliably detects "riddle me this" mentions  
-- ✅ Accurately extracts original tweet author IDs
-- ✅ Analyzes correct users (original posters, not commenters)
-- ✅ Posts coherent, informative trust reports
-- ✅ Implements trusted account vouching system
-
-### Code Quality (20/20 points)
-- ✅ Clean, well-commented, maintainable code
-- ✅ Efficient API usage with rate limit handling
-- ✅ Comprehensive error handling and logging
-
-### Modularity (20/20 points)
-- ✅ Well-structured modular design
-- ✅ Logical separation of concerns
-- ✅ Independent, testable components
-
-### Replit Readiness (10/10 points)
-- ✅ Easy configuration and deployment on Replit
-- ✅ Clear dependency management with requirements.txt
-- ✅ Comprehensive setup documentation
-
-## 📞 Contact
-
-For questions or personal project review before submission:
-- **Telegram**: @devsyrem
-- **Project**: RUGGUARD
-- **GitHub**: [Your Repository URL]
-
-## 🏆 Bounty Competition
-
-**Prizes:**
-- 🥇 **1st Place**: 300 USDC + Exclusive Merch
-- 🏅 **2nd-5th Place**: Exclusive Merch
-
-**Submission Requirements:**
-- ✅ Public GitHub repository with full source code
-- ✅ Comprehensive README.md with setup instructions
-- ✅ Replit-ready deployment configuration
-- ✅ Original code with proper open-source attribution
-- ✅ 100-point scoring requirement for prize eligibility
-
----
-
-*Built with ❤️ for the Solana ecosystem by the RUGGUARD team*
+*Built with ❤️ for the Solana ecosystem*
